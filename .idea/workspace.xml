@@ -26,8 +26,8 @@
       <file leaf-file-name="main.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.7280405" vertical-offset="0" max-vertical-offset="1887">
-              <caret line="95" column="86" selection-start-line="95" selection-start-column="84" selection-end-line="95" selection-end-column="84" />
+            <state vertical-scroll-proportion="-1.9003378" vertical-offset="1295" max-vertical-offset="1887">
+              <caret line="10" column="138" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -824,8 +824,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.7280405" vertical-offset="0" max-vertical-offset="1887">
-          <caret line="95" column="86" selection-start-line="95" selection-start-column="84" selection-end-line="95" selection-end-column="84" />
+        <state vertical-scroll-proportion="-1.9003378" vertical-offset="1295" max-vertical-offset="1887">
+          <caret line="10" column="138" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
           <folding />
         </state>
       </provider>

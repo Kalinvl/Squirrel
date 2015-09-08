@@ -99,5 +99,7 @@ public class main {
 
     ArrayList<String> com= new SquirrelConverter().SquirrelConnectionsDefiner(database.branchNames, tree);
 
+    System.out.println("УРА! ВСЁ РАБОТАЕТ!");
+
   }
 }

@@ -100,6 +100,6 @@ public class main {
     ArrayList<String> com= new SquirrelConverter().SquirrelConnectionsDefiner(database.branchNames, tree);
 
     System.out.println("УРА! ВСЁ РАБОТАЕТ!");
-    System.out.println("Ничерта не понятно");
+    System.out.println("Ничерта не понятно1");
   }
 }

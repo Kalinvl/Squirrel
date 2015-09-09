@@ -99,7 +99,7 @@ public class main {
 
     ArrayList<String> com= new SquirrelConverter().SquirrelConnectionsDefiner(database.branchNames, tree);
 
-    System.out.println("УРА! ВСЁ РАБОТАЕТ!");
-    System.out.println("Ничерта не понятно1");
+    System.out.println("Тестирование данной функции");
+    System.out.println("");
   }
 }

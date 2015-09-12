@@ -4,9 +4,16 @@
 public class SquirrelMatrix {
   protected SquirrelCell[][] array;
 
-  public SquirrelMatrix(int length1, int length2) throws Exception {
-    if ((length1<0)|(length2<0))throw new Exception("Попытка создать массив отрицательной длины");
-    array = new SquirrelCell[length1][length2];
+  private int length=0;
+  private int width=0;
+
+  public SquirrelMatrix(int length, int width) throws Exception {
+    if ((length<0)|(width<0))throw new Exception("Попытка создать массив отрицательной длины");
+    array = new SquirrelCell[length][width];
+
+    this.length=length;
+    this.width=width;
+
   }
 
   public SquirrelCell getElem(int pos1, int pos2) throws Exception {
@@ -18,18 +25,10 @@ public class SquirrelMatrix {
     array[pos1][pos2]=newCell;
   }
 
-  //нужно доделать исключения
-  public int getLength(){
-    return array.length;
-  }
-  public int getWidth(){
-    return array[0].length;
-  }
-
   public void print(){
     try{
-      for (int j=0;j<array[0].length;j++){
-        for (int i=0;i<array.length;i++){
+      for (int i=0;i<array.length;i++){
+        for (int j=0;j<array[i].length;j++){
           array[i][j].print();
         }
         System.out.println();
@@ -38,4 +37,26 @@ public class SquirrelMatrix {
       System.out.println("Ошибка при вывод матрицы");
     }
   }
+
+  public void println(){
+    print();
+    System.out.println();
+  }
+
+  //нужно доделать исключения
+  public int getLength(){
+    return length;
+  }
+  public int getWidth(){
+    return width;
+  }
+
+  public void setWidth(int width) {
+    this.width = width;
+  }
+
+  public void setLength(int length) {
+    this.length = length;
+  }
+
 }

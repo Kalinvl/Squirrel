@@ -40,4 +40,26 @@ public class SquirrelMatrixOperations {
     return resultMatrix;
   }
 
+  public SquirrelMatrix SquirrelMatrixMult(SquirrelMatrix ferst, SquirrelMatrix second) throws Exception {
+    // поэлементное произведение матриц
+    SquirrelMatrix resultMatrix=null;
+
+    //проверка матриц на совпадение
+    if (ferst.getWidth()!=second.getLength())throw new Exception("Произведение матриц невозможно - матрицы не совпадают");
+
+    resultMatrix = new SquirrelMatrix(ferst.getLength(),second.getWidth());
+
+    for (int i=0;i<resultMatrix.getLength();i++){
+      for (int j=0;j<resultMatrix.getWidth();j++){
+        SquirrelCell cell = new SquirrelCell(0,0);
+        for(int l=0;l<ferst.getWidth();l++){
+          //System.out.println(ferst.getElem(i,l).getRe()+"  *  "+second.getElem(l,j).getRe());
+          cell.addMultiplication(ferst.getElem(i,l),second.getElem(l,j));
+        }
+        resultMatrix.setElem(i,j, cell);
+      }
+    }
+    return resultMatrix;
+  }
+
 }

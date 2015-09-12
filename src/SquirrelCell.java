@@ -42,7 +42,6 @@ public class SquirrelCell{
     }
     return this;
   }
-
   public SquirrelCell dec(SquirrelCell ferst, SquirrelCell second) {
     RePart=0;
     ImPart=0;
@@ -56,7 +55,6 @@ public class SquirrelCell{
     }
     return this;
   }
-
   public SquirrelCell mult(SquirrelCell ferst, SquirrelCell second) throws Exception {
     RePart=0;
     ImPart=0;
@@ -68,7 +66,6 @@ public class SquirrelCell{
 
     return this;
   }
-
   public SquirrelCell divn(SquirrelCell ferst, SquirrelCell second) throws Exception {
     RePart=0;
     ImPart=0;
@@ -115,6 +112,14 @@ public class SquirrelCell{
     this.RePart=tmpRePart;
     this.ImPart=tmpImPart;
 
+    return this;
+  }
+  public SquirrelCell addMultiplication(SquirrelCell ferst, SquirrelCell second) throws Exception {
+    //Прибавляет к текущему значению произведение двух элементов
+    if((ferst!=null)&(second!=null)) {
+      RePart += ferst.getRe() * second.getRe() - ferst.getIm() * second.getIm();
+      ImPart += ferst.getIm() * second.getRe() + ferst.getRe() * second.getIm();
+    }//в противном случчае - один из элементов пустой, произведение равно нулю
     return this;
   }
 

@@ -2,4 +2,4 @@
 Frequency=50;Angle=0;
 Node=1;Node=2;R=10;E=20//№1
 Node=2;Node=3;R=5;L=0.015//№2
-Node=3;Node=7;R=5;//№3
+Node=3;Node=1;R=5;//№3

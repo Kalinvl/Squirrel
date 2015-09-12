@@ -36,7 +36,6 @@ public class SquirrelDatabase {
       String node1=branch.startNodeNum;
       String node2=branch.finishNodeNum;
 
-
       //добавляем начальный узел, если такого ещё нет
       if(nodeNames.indexOf(node1)==-1){
         SquirrelNode startNode = new SquirrelNode();
@@ -45,9 +44,14 @@ public class SquirrelDatabase {
         nodes.put(node1,startNode);
         //добавляем узел в список имён
         nodeNames.add(node1);
+        //добавляем ветвь в параметры узла
+        startNode.addBranch(branch);
       }else {
         //если есть - добываем его и записываем в ветвь
-        branch.startNode=nodes.get(nodeNames.get(nodeNames.indexOf(node1)));
+        SquirrelNode node = nodes.get(nodeNames.get(nodeNames.indexOf(node1)));
+        branch.startNode=node;
+        //добавляем ветвь в параметры узла
+        node.addBranch(branch);
       }
 
       //добавляем конечный узел, если такого ещё нет
@@ -58,9 +62,14 @@ public class SquirrelDatabase {
         nodes.put(node2,finishNode);
         //добавляем узел в список имён
         nodeNames.add(node2);
+        //добавляем ветвь в параметры узла
+        finishNode.addBranch(branch);
       }else {
         //если есть - добываем его и записываем в ветвь
-        branch.finishNode=nodes.get(nodeNames.get(nodeNames.indexOf(node2)));
+        SquirrelNode node = nodes.get(nodeNames.get(nodeNames.indexOf(node2)));
+        branch.finishNode=node;
+        //добавляем ветвь в параметры узла
+        node.addBranch(branch);
       }
     }
 

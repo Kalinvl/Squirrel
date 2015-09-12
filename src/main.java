@@ -9,8 +9,8 @@ public class main {
     //test2();
     //test3();
     //test4();
-    //test5();
-    test6();
+    test5();
+    //test6();
   }
   public static void test1() throws Exception {
     SquirrelMatrix matrix1=null;
@@ -94,7 +94,7 @@ public class main {
   }
 
   public static void test5() throws Exception {
-    SquirrelDatabase database = new SquirrelReader().readDataBase("src/input2.txt");
+    SquirrelDatabase database = new SquirrelReader().readDataBase("src/input.txt");
 
     ArrayList<String> tree= new SquirrelConverter().SquirrelTreeDefiner(database.branchNames, database.branches, database.nodes);
 

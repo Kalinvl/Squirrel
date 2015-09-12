@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68a78e77-d789-428c-96de-189e3d9cc3ed" name="Default" comment="Проверка номер три">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SquirrelCell.java" afterPath="$PROJECT_DIR$/src/SquirrelCell.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SquirrelMatrix.java" afterPath="$PROJECT_DIR$/src/SquirrelMatrix.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SquirrelMatrixOperations.java" afterPath="$PROJECT_DIR$/src/SquirrelMatrixOperations.java" />
+    <list default="true" id="68a78e77-d789-428c-96de-189e3d9cc3ed" name="Default" comment="Произведение матриц добавлено">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SquirrelConverter.java" afterPath="$PROJECT_DIR$/src/SquirrelConverter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SquirrelDatabase.java" afterPath="$PROJECT_DIR$/src/SquirrelDatabase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SquirrelNode.java" afterPath="$PROJECT_DIR$/src/SquirrelNode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/input.txt" afterPath="$PROJECT_DIR$/src/input.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.java" afterPath="$PROJECT_DIR$/src/main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -32,35 +33,62 @@
       <file leaf-file-name="main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="947" max-vertical-offset="1530">
-              <caret line="166" column="57" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="168" max-vertical-offset="697">
+              <caret line="98" column="62" selection-start-line="98" selection-start-column="62" selection-end-line="98" selection-end-column="62" />
               <folding>
                 <element signature="method#test1#0;class#main#0" expanded="false" />
                 <element signature="method#test2#0;class#main#0" expanded="false" />
                 <element signature="method#test3#0;class#main#0" expanded="false" />
                 <element signature="method#test4#0;class#main#0" expanded="false" />
-                <element signature="method#test5#0;class#main#0" expanded="false" />
+                <element signature="method#test6#0;class#main#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SquirrelMatrixOperations.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SquirrelMatrixOperations.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SquirrelMatrixOperations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6909091" vertical-offset="602" max-vertical-offset="1207">
-              <caret line="60" column="89" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="321" max-vertical-offset="1207">
+              <caret line="62" column="44" selection-start-line="62" selection-start-column="3" selection-end-line="62" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SquirrelCell.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="SquirrelCellInterface.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SquirrelCellInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SquirrelNode.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SquirrelNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+              <folding>
+                <element signature="e#172#173#0" expanded="true" />
+                <element signature="e#225#226#0" expanded="true" />
+                <element signature="e#273#274#0" expanded="true" />
+                <element signature="e#306#307#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SquirrelCell.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SquirrelCell.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="2193">
-              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-              <folding />
+            <state vertical-scroll-proportion="0.3251418" vertical-offset="1613" max-vertical-offset="2142">
+              <caret line="113" column="171" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+              <folding>
+                <element signature="method#println#0;class#SquirrelCell#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,8 +96,8 @@
       <file leaf-file-name="SquirrelMatrix.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SquirrelMatrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="124" max-vertical-offset="1020">
-              <caret line="18" column="29" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
+              <caret line="12" column="115" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -78,19 +106,12 @@
       <file leaf-file-name="SquirrelReader.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SquirrelReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1037">
-              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SquirrelBranch.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SquirrelBranch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1037">
-              <caret line="14" column="40" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+              <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+              <folding>
+                <element signature="method#readDataBase#0;class#SquirrelReader#0" expanded="false" />
+                <element signature="method#readSecondString#0;class#SquirrelReader#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,19 +119,12 @@
       <file leaf-file-name="SquirrelDatabase.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SquirrelDatabase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2023" max-vertical-offset="2125">
-              <caret line="119" column="70" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="input2.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/input2.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="408">
-              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="817" max-vertical-offset="1921">
+              <caret line="58" column="157" selection-start-line="58" selection-start-column="53" selection-end-line="58" selection-end-column="53" />
+              <folding>
+                <element signature="method#SquirrelDatabase#0;class#SquirrelDatabase#0" expanded="false" />
+                <element signature="method#addBranch#0;class#SquirrelDatabase#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -118,8 +132,8 @@
       <file leaf-file-name="SquirrelConverter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SquirrelConverter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1462" max-vertical-offset="1564">
-              <caret line="86" column="156" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1018" max-vertical-offset="1547">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -128,8 +142,8 @@
       <file leaf-file-name="input.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/input.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="187">
-              <caret line="5" column="87" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -156,20 +170,20 @@
         <option value="$PROJECT_DIR$/src/SquirellCellInterface.java" />
         <option value="$PROJECT_DIR$/src/SquirrellCelInterface.java" />
         <option value="$PROJECT_DIR$/src/SquirrelCellInterface.java" />
-        <option value="$PROJECT_DIR$/src/SquirrelNode.java" />
         <option value="$PROJECT_DIR$/src/SquirrelConstants.java" />
         <option value="$PROJECT_DIR$/src/SquirrelDatabaseFerst.java" />
         <option value="$PROJECT_DIR$/src/SquirrelReader.java" />
         <option value="$PROJECT_DIR$/src/SquirrelBranch.java" />
         <option value="$PROJECT_DIR$/src/Примечания.txt" />
-        <option value="$PROJECT_DIR$/src/SquirrelDatabase.java" />
         <option value="$PROJECT_DIR$/src/input2.txt" />
-        <option value="$PROJECT_DIR$/src/input.txt" />
-        <option value="$PROJECT_DIR$/src/SquirrelConverter.java" />
         <option value="$PROJECT_DIR$/src/SquirrelCell.java" />
         <option value="$PROJECT_DIR$/src/SquirrelMatrix.java" />
         <option value="$PROJECT_DIR$/src/SquirrelMatrixOperations.java" />
+        <option value="$PROJECT_DIR$/src/SquirrelNode.java" />
+        <option value="$PROJECT_DIR$/src/SquirrelDatabase.java" />
         <option value="$PROJECT_DIR$/src/main.java" />
+        <option value="$PROJECT_DIR$/src/input.txt" />
+        <option value="$PROJECT_DIR$/src/SquirrelConverter.java" />
       </list>
     </option>
   </component>
@@ -489,7 +503,11 @@
       <created>1441815772133</created>
       <updated>1441815772133</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Произведение матриц добавлено">
+      <created>1442036652041</created>
+      <updated>1442036652041</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -497,13 +515,13 @@
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3347732" sideWeight="0.49840087" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33405405" sideWeight="0.49840087" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.49965447" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39823982" sideWeight="0.82033896" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31567568" sideWeight="0.26492536" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39783785" sideWeight="0.8198294" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39783785" sideWeight="0.17963752" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.49965447" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32829374" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -513,7 +531,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16471216" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31567568" sideWeight="0.73507464" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31567568" sideWeight="0.73507464" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -540,11 +558,20 @@
     <MESSAGE value="Проверка" />
     <MESSAGE value="Проверка номер два" />
     <MESSAGE value="Проверка номер три" />
-    <option name="LAST_COMMIT_MESSAGE" value="Проверка номер три" />
+    <MESSAGE value="Произведение матриц добавлено" />
+    <option name="LAST_COMMIT_MESSAGE" value="Произведение матриц добавлено" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="21" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main.java</url>
+          <line>96</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="22" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -561,7 +588,7 @@
             <element signature="method#test2#0;class#main#0" expanded="false" />
             <element signature="method#test3#0;class#main#0" expanded="false" />
             <element signature="method#test4#0;class#main#0" expanded="false" />
-            <element signature="method#test5#0;class#main#0" expanded="false" />
+            <element signature="method#test6#0;class#main#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -570,7 +597,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1037">
           <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-          <folding />
+          <folding>
+            <element signature="method#readDataBase#0;class#SquirrelReader#0" expanded="false" />
+            <element signature="method#readSecondString#0;class#SquirrelReader#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -586,7 +616,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2023" max-vertical-offset="2125">
           <caret line="119" column="70" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#SquirrelDatabase#0;class#SquirrelDatabase#0" expanded="false" />
+            <element signature="method#addBranch#0;class#SquirrelDatabase#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -637,7 +670,7 @@
             <element signature="method#test2#0;class#main#0" expanded="false" />
             <element signature="method#test3#0;class#main#0" expanded="false" />
             <element signature="method#test4#0;class#main#0" expanded="false" />
-            <element signature="method#test5#0;class#main#0" expanded="false" />
+            <element signature="method#test6#0;class#main#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -646,7 +679,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1037">
           <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-          <folding />
+          <folding>
+            <element signature="method#readDataBase#0;class#SquirrelReader#0" expanded="false" />
+            <element signature="method#readSecondString#0;class#SquirrelReader#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -662,7 +698,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2023" max-vertical-offset="2125">
           <caret line="119" column="70" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#SquirrelDatabase#0;class#SquirrelDatabase#0" expanded="false" />
+            <element signature="method#addBranch#0;class#SquirrelDatabase#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -713,7 +752,7 @@
             <element signature="method#test2#0;class#main#0" expanded="false" />
             <element signature="method#test3#0;class#main#0" expanded="false" />
             <element signature="method#test4#0;class#main#0" expanded="false" />
-            <element signature="method#test5#0;class#main#0" expanded="false" />
+            <element signature="method#test6#0;class#main#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -722,7 +761,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1037">
           <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-          <folding />
+          <folding>
+            <element signature="method#readDataBase#0;class#SquirrelReader#0" expanded="false" />
+            <element signature="method#readSecondString#0;class#SquirrelReader#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -738,7 +780,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1564" max-vertical-offset="2125">
           <caret line="92" column="29" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="29" />
-          <folding />
+          <folding>
+            <element signature="method#SquirrelDatabase#0;class#SquirrelDatabase#0" expanded="false" />
+            <element signature="method#addBranch#0;class#SquirrelDatabase#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -796,7 +841,7 @@
             <element signature="method#test2#0;class#main#0" expanded="false" />
             <element signature="method#test3#0;class#main#0" expanded="false" />
             <element signature="method#test4#0;class#main#0" expanded="false" />
-            <element signature="method#test5#0;class#main#0" expanded="false" />
+            <element signature="method#test6#0;class#main#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -813,7 +858,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="2091">
           <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
-          <folding />
+          <folding>
+            <element signature="method#SquirrelDatabase#0;class#SquirrelDatabase#0" expanded="false" />
+            <element signature="method#addBranch#0;class#SquirrelDatabase#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -854,24 +902,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SquirrelCellInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <caret line="16" column="73" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../ABBlocks/src/BAInformation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="4.8864026" vertical-offset="0" max-vertical-offset="3332">
           <caret line="169" column="70" selection-start-line="169" selection-start-column="13" selection-end-line="169" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SquirrelNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -905,10 +939,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/SquirrelCellInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SquirrelMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
+          <caret line="12" column="115" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/SquirrelReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+          <folding>
+            <element signature="method#readDataBase#0;class#SquirrelReader#0" expanded="false" />
+            <element signature="method#readSecondString#0;class#SquirrelReader#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SquirrelDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="817" max-vertical-offset="1921">
+          <caret line="58" column="157" selection-start-line="58" selection-start-column="53" selection-end-line="58" selection-end-column="53" />
+          <folding>
+            <element signature="method#SquirrelDatabase#0;class#SquirrelDatabase#0" expanded="false" />
+            <element signature="method#addBranch#0;class#SquirrelDatabase#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="168" max-vertical-offset="697">
+          <caret line="98" column="62" selection-start-line="98" selection-start-column="62" selection-end-line="98" selection-end-column="62" />
+          <folding>
+            <element signature="method#test1#0;class#main#0" expanded="false" />
+            <element signature="method#test2#0;class#main#0" expanded="false" />
+            <element signature="method#test3#0;class#main#0" expanded="false" />
+            <element signature="method#test4#0;class#main#0" expanded="false" />
+            <element signature="method#test6#0;class#main#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SquirrelMatrixOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="619" max-vertical-offset="1207">
+          <caret line="62" column="44" selection-start-line="62" selection-start-column="3" selection-end-line="62" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SquirrelConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1018" max-vertical-offset="1547">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -916,62 +1010,31 @@
     <entry file="file://$PROJECT_DIR$/src/input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <caret line="5" column="87" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SquirrelConverter.java">
+    <entry file="file://$PROJECT_DIR$/src/SquirrelNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-          <caret line="86" column="156" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SquirrelDatabase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1386" max-vertical-offset="1938">
-          <caret line="119" column="70" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SquirrelMatrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="124" max-vertical-offset="1020">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="947" max-vertical-offset="1530">
-          <caret line="166" column="57" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
           <folding>
-            <element signature="method#test1#0;class#main#0" expanded="false" />
-            <element signature="method#test2#0;class#main#0" expanded="false" />
-            <element signature="method#test3#0;class#main#0" expanded="false" />
-            <element signature="method#test4#0;class#main#0" expanded="false" />
-            <element signature="method#test5#0;class#main#0" expanded="false" />
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SquirrelCell.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="714">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SquirrelMatrixOperations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6909091" vertical-offset="602" max-vertical-offset="1207">
-          <caret line="60" column="89" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
-          <folding />
+        <state vertical-scroll-proportion="0.3251418" vertical-offset="1613" max-vertical-offset="2142">
+          <caret line="113" column="171" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+          <folding>
+            <element signature="method#println#0;class#SquirrelCell#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

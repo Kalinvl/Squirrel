@@ -8,6 +8,7 @@ import java.util.TreeMap;
 public class SquirrelConverter {
   //конвертирует (как бы странно это ни звучало)
 
+  //Алгоритм можно оптимизировать. Теперь в узлах есть ссылки на ветви
   public ArrayList<String> SquirrelTreeDefiner(ArrayList<String> branchNames, HashMap<String,SquirrelBranch> branches, HashMap<String,SquirrelNode> nodes){
     //из исходных данных собирает дерево
     //алгоритм Дейкстры-Прима (уже, видимо, иной алгоритм - ветви в приоритете)

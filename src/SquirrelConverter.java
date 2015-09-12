@@ -8,7 +8,9 @@ import java.util.TreeMap;
 public class SquirrelConverter {
   //конвертирует (как бы странно это ни звучало)
 
-  //Алгоритм можно оптимизировать. Теперь в узлах есть ссылки на ветви
+  //Алгоритм можно оптимизировать.
+  //Теперь в узлах есть ссылки на ветви.
+  //Алгоритм неверен
   public ArrayList<String> SquirrelTreeDefiner(ArrayList<String> branchNames, HashMap<String,SquirrelBranch> branches, HashMap<String,SquirrelNode> nodes){
     //из исходных данных собирает дерево
     //алгоритм Дейкстры-Прима (уже, видимо, иной алгоритм - ветви в приоритете)
@@ -82,6 +84,46 @@ public class SquirrelConverter {
     //формирует матрицу A из ветвей дерева и связей
 
     return null;
+  }
+
+  public ArrayList<String> CreateLoop(ArrayList<String> branchNames, HashMap<String,SquirrelBranch> branches, HashMap<String,SquirrelNode> nodes){
+   /*
+    class Segment2{
+     //Специальный подкласс для поиска минимального контура
+     SquirrelNode node;
+     SquirrelBranch branch;
+
+     ArrayList<SquirrelBranch> nextBranchs;
+
+     //Метод анализа соседних ветвей
+     public ArrayList<SquirrelBranch> analyze(SquirrelBranch branch, SquirrelNode node, SquirrelNode seekingNode, ArrayList<SquirrelBranch> previosList){
+       this.node=node;
+       this.branch=branch;
+
+       nextBranchs=new ArrayList<SquirrelBranch>();
+
+       //для каждой ветви, выходящей из узла проверяме: 1) не равна ли она текущей ветви 2) не равна ли она ветвям текущего списка 3) не равен ли её узел искомому узлу.
+       for (SquirrelBranch nextBranch : node.branchs) {
+
+         //если нашли
+         if((nextBranch.startNode==seekingNode)|(nextBranch.finishNode==seekingNode)){
+           ArrayList<SquirrelBranch> list = new ArrayList<SquirrelBranch>();
+           list.add(nextBranch);
+           return list;
+         }
+
+         if ((nextBranch!=branch)&(!previosList.contains(nextBranch))){
+           nextBranchs.add(nextBranch);
+         }
+       }
+
+       return null;
+
+     }
+   }
+   class Segment{
+   } //*/
+   return null;
   }
 
 }

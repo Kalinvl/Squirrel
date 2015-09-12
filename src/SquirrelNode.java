@@ -5,11 +5,12 @@ import java.util.ArrayList;
  */
 public class SquirrelNode {
   //узел
-  ArrayList<SquirrelBranch> branchNames;
+  ArrayList<SquirrelBranch> branchs;
+
   public SquirrelNode(){
-    branchNames=new ArrayList<SquirrelBranch>();
+    branchs=new ArrayList<SquirrelBranch>();
   }
   public void addBranch(SquirrelBranch branch){
-    branchNames.add(branch);
+    branchs.add(branch);
   }
 }

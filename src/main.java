@@ -94,7 +94,7 @@ public class main {
   }
 
   public static void test5() throws Exception {
-    SquirrelDatabase database = new SquirrelReader().readDataBase("src/input.txt");
+    SquirrelDatabase database = new SquirrelReader().readDataBase("src/input3.txt");
 
     ArrayList<String> tree= new SquirrelConverter().SquirrelTreeDefiner(database.branchNames, database.branches, database.nodes);
 

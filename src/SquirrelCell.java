@@ -123,8 +123,16 @@ public class SquirrelCell{
     return this;
   }
 
+  //Если все параметры нулевые - возвращает true
+  public boolean isEmpty(){
+    if((RePart==0&(ImPart==0)))return false;
+    return true;
+  }
+
   public void print() {
-    System.out.print(" "+RePart+" + j*"+ImPart+" ; ");
+    System.out.print(" " + RePart);
+    if (ImPart>0)System.out.print(" + j*"+ImPart);//+" ;"
+    else if (ImPart<0) System.out.print(" - j*"+(-ImPart));
   }
   public void println() {
     print();

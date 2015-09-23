@@ -81,13 +81,7 @@ public class SquirrelDatabase {
     for (int i=0;i<branchNames.size();i++){
       //вытаскиваем очередную ветку
       branch=branches.get(branchNames.get(i));
-
-      double Re=0;
-      double Im=0;
-      if(branch.R!=null)Re+=branch.R.getRe();
-      if(branch.L!=null)Im+=W*branch.L.getRe();
-      if(branch.C!=null)Im+=-1/(W*branch.C.getRe());
-      branch.Z=new SquirrelCell(Re,Im);
+      branch.analyze(W);
     }
 
     //часть - 3 - задание весов лининй
